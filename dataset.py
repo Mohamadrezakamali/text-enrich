@@ -5,6 +5,9 @@ from typing import List
 qazal_pattern = re.compile(r'[\s\S*]غزل[\s+]{3,}[\S\s]+?\n')
 qazals_path = './datasets/hafez/hafez-qazals.txt'
 
+poems_path = './datasets/poems/yek-beiti.txt'
+
+
 def read_qazals() -> List[str]:
     """Read Hafez qazals and return an array of his qazals.
 
@@ -20,4 +23,11 @@ def read_qazals() -> List[str]:
     return qazals_arr[1:]
 
 # test that the qazals have been read correctly
-print(read_qazals()[200])
+# print(read_qazals()[200])
+
+def read_poems():
+    with open(poems_path, encoding='utf-8') as f:
+        poems = f.readlines()
+        return poems
+        
+print(read_poems()[10])
