@@ -1,0 +1,5 @@
+src/model/
+src/logs/
+src/data/
+__pycache__
+src/paraphrase-mpnet-base-v2.zip
