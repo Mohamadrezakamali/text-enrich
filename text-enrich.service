@@ -1,0 +1,14 @@
+[Unit]
+Description=My Script Service
+StartLimitIntervalSec=300
+StartLimitBurst=5
+
+[Service]
+WorkingDirectory=/root/text-enrich/server/src
+ExecStartPre=docker start mysql-docker
+ExecStart=/root/text-enrich/server/venv/bin/python /root/text-enrich/server/src/main.py
+Restart=on-failure
+RestartSec=1s
+
+[Install]
+WantedBy=multi-user.target
