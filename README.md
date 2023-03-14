@@ -71,6 +71,6 @@ systemctl restart text-enrich
 Now, you can search in the webpage and see the results fastly ;)
 <br><br>
 
-<center>
+<p align="center">
 <img src='media/demo.gif' />
-</center>
+</p>
