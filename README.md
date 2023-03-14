@@ -68,6 +68,9 @@ After that, it is better to restart the service to be sure the tables are recogn
 systemctl restart text-enrich
 ```
 # Test
-Now, you could search in the webpage and see the results:
+Now, you can search in the webpage and see the results fastly ;)
+<br><br>
 
-![1](media/demo.gif)
+<center>
+<img src='media/demo.gif' />
+</center>
