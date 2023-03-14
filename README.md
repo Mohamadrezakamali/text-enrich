@@ -57,7 +57,7 @@ sudo nginx -s reload
 ```
 Now, you have access to your frontend on the host you consider instead of `example.com`. Check it!
 
-![1](imgs/home.png)
+![1](media/home.png)
 # Load Data
 To load your datasets, put your paths in the mapping in the file and run the file:
 ```
@@ -70,4 +70,4 @@ systemctl restart text-enrich
 # Test
 Now, you could search in the webpage and see the results:
 
-![1](imgs/results.png)
+![1](media/demo.gif)
